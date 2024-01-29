@@ -1,0 +1,57 @@
+/* Page2.css */
+/* Page2.css */
+.Page2-container {
+    background-color: #010424;
+    color: #fff;
+    text-align: center;
+    padding: 300px 400px;
+  }
+  
+  .sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .sections-container p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 145% */
+  }
+  .Page2-container h1 {
+  font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 38px; /* 118.75% */
+text-transform: uppercase;
+  }
+
+  .section {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .divider {
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    width: 150px; /* Adjust the image size as needed */
+    margin: 0 10px;
+  }
+  
+
+
+
