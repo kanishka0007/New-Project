@@ -27,15 +27,16 @@ services.</p>
         
       </div>
       <div className="content-container reversed">
-        <div className="image-content">
-          <img src={IMG2} alt="IMG2" />
-        </div>
-        <div className="text-content">
+      <div className="text-content">
           <h2>What is the Yearly Cost for Web Hosting?</h2>
           <p>
           There is no fixed cost for hosting. It varies depending on the website requirements. Consider the level of options and features, as well as the hosting environment type. Generally, the range for web hosting services starts from $150 and goes up to around $1500 per year.
           </p>
         </div>
+        <div className="image-content">
+          <img src={IMG2} alt="IMG2" />
+        </div>
+    
       </div>
       <div className="content-container">
         <div className="text-content">
@@ -49,15 +50,16 @@ services.</p>
         </div>
       </div>
       <div className="content-container reversed">
-        <div className="image-content">
-          <img src={IMG4} alt="IMG4" />
-        </div>
-        <div className="text-content">
+      <div className="text-content">
           <h2>What Is CSS?</h2>
           <p>
           CSS stands for Cascade Styling Sheets. It is a code that allows designers to edit the visual elements of the design. With the help of CSS, you can control the fonts, the colors, the layout, the structure, and the design on the whole. You can create a unique user experience so that customers are attracted to your website.
           </p>
         </div>
+        <div className="image-content">
+          <img src={IMG4} alt="IMG4" />
+        </div>
+        
       </div>
       <div className="content-container">
         <div className="text-content">
@@ -71,15 +73,16 @@ services.</p>
         </div>
       </div>
       <div className="content-container reversed">
-        <div className="image-content">
-          <img src={IMG6} alt="IMG6" />
-        </div>
-        <div className="text-content">
+      <div className="text-content">
           <h2>What are the Monthly Costs for a Website?</h2>
           <p>
           The costs of website maintenance vary, depending on the type of website and its functionality. For smaller websites, the frequency of updates is low, while for enterprise-level or e-commerce websites, there is a higher frequency of edits and updates. Based on the scope of maintenance, the monthly charges for a website range from $250 to $4500 per month.
           </p>
         </div>
+        <div className="image-content">
+          <img src={IMG6} alt="IMG6" />
+        </div>
+        
       </div>
     </div>
   );

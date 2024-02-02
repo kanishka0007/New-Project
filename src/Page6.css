@@ -3,7 +3,7 @@
 .page6-container {
   background-color: #010424;
   text-align: center;
-  padding: 30px 0px;
+  padding:  30px;
 }
 
 .center-heading,
@@ -15,6 +15,9 @@
   font-style: normal;
   margin-left: 180px;
   margin-right: 180px;
+}
+.center-heading{
+  font-size: 16px;
 }
 
 .page6-container h1 {
