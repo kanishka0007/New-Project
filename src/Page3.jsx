@@ -24,6 +24,7 @@ services.</p>
         <div className="image-content">
           <img src={IMG1} alt="IMG1" />
         </div>
+        
       </div>
       <div className="content-container reversed">
         <div className="image-content">

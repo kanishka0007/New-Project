@@ -1,34 +1,40 @@
-import React from 'react'
+import React from 'react';
+import './Page2.css';
+import Image1 from './assets/Image1.png';
 
-import './Page2.css'; // Create a new CSS file for Page2 if needed
-
-function Page2() {
+export const Page2 = () => {
   return (
-    <div className="Page2-container">
-      <h1>Creative Web Agency <br/> <span style={{ color: '#701ABC' }}>Delivering Custom Solutions</span>
-      </h1> 
-      
-      <div className="sections-container">
-        <div className="section">
-          <p>Tailored Branding Strategies to Drive Engagement</p> 
-          <span>/</span>
-          <p>Effective Marketing Campaigns To Generate Growth </p>
-          <span>/</span>
-          <p>Custom Web Design Solutions To Drive Conversions</p>
+    <div className="Page2-container h=100">
+      <header className="header-section">
+      <h1>WHICH PACKAGE DO <span style={{ color: '#701ABC' }}>I CHOOSE?</span>
+</h1>
+</header>
+<div className="questions-section">
+        <div className="left1">
+        <p>Excellent! It is normal to get confused about the package you should choose. <br/>
+         But we'll make this easier for you. Just answer these questions: <br/>
+         
+<p>
+What are your business goals?<br/>
+Who, what, and where is your target customer? <br/>
+How much are you willing to spend?<br/>
+</p>
+
+
+As we learn more about you and your business, we help you determine <br/>the package best suited to your needs.</p>
+          <button className="action-button">Get Started Now</button>
         </div>
-        
-        <div className="section">
-          <p>5 Star DesignRush Reviews</p>
-          <span>/</span>
-          <p>Latest Web Design Award</p>
+        <div className="right1">
+        <img className="image" src={Image1} alt="Image1" />
         </div>
       </div>
-      <div className="images-container">
-        <img src="path/to/image1.jpg" alt="Image 1" />
-        <img src="path/to/image2.jpg" alt="Image 2" />
+      <div className="bottom-section">
+      <h1 className="bottom-section-heading">
+  WHAT DO OUR <span style={{ color: '#701ABC' }}>AFFORDABLE</span> PACKAGES <br/>
+  <span className="second-line">FOR DIGITAL <span style={{ color: '#701ABC' }}>SERVICE INCLUDE?</span></span>
+</h1>
       </div>
     </div>
-  );
+  )
 }
-
 export default Page2;
